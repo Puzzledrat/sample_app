@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.10'
+gem 'rails'
 gem 'sqlite3'
 
 group :development do
@@ -9,6 +9,7 @@ end
 
 group :test do
   gem 'rspec-rails'
+  gem 'spork', '0.9.0.rc8'
   gem 'webrat'
 end
 
